@@ -26,7 +26,7 @@ CREATE TABLE Products (
     Price DECIMAL(10,2),
     Quantity INT
 );
-
+##  Project Structure
 ProductWebApp/
 ├── WebContent/
 │   ├── index.jsp
