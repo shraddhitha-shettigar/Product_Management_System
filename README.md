@@ -96,13 +96,13 @@ INSERT INTO Product (id, name, category, price, quantity) VALUES
 ![Add Product](screenshots/add.jpg)
 
 ### 📝 Update Product
-![Update Product](screenshots/productupdate.png)
+![Update Product](screenshots/update.jpg)
 
 ### ❌ Delete Product
-![Delete Product](screenshots/productdelete.png)
+![Delete Product](screenshots/delete.jpg)
 
 ### 📋 Display Products
-![Display Products](screenshots/productdisplay.png)
+![Display Products](screenshots/display.jpg)
 
 ### 📊 Generate Reports
 ![Generate Reports](screenshots/reports.png)
