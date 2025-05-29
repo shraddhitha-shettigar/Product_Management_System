@@ -27,8 +27,10 @@ CREATE TABLE Products (
     Quantity INT
 );
 
-##  Project Structure
-ProductWebApp/
+
+## 📁 Project Structure
+
+```ProductWebApp/
 ├── WebContent/
 │   ├── index.jsp
 │   ├── productadd.jsp
@@ -52,7 +54,7 @@ ProductWebApp/
 │       ├── ReportServlet.java
 │       └── ReportCriteriaServlet.java
 └── WEB-INF/
-    └── web.xml
+    └── web.xml```
 
 ## ⚙️ Technologies Used
 
