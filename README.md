@@ -35,8 +35,18 @@ CREATE TABLE Products (
     Quantity INT
 );
 ```
+### 3. Insert Sample Data
+```sql
+INSERT INTO Product (id, name, category, price, quantity) VALUES
+(101, 'Smart Watch', 'Electronics', 2000.00, 25),
+(102, 'Smartphone', 'Electronics', 20000.00, 15),
+(103, 'Comb', 'Beauty', 30.00, 25),
+(104, 'Pen', 'Stationery', 10.00, 300),
+(105, 'Face wash', 'Beauty', 45.00, 12),
+(106, 'Sunscreen', 'Beauty', 60.00, 65);
 
 
+```
 ## 📁 Project Structure
 
 ```ProductWebApp/
