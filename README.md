@@ -19,13 +19,14 @@ A web-based Java application to manage product inventory using JSP, Servlets, JD
 ## 🗄️ Database Structure
 
 
-CREATE TABLE Products (
+```CREATE TABLE Products (
     ProductID INT PRIMARY KEY,
     ProductName VARCHAR(100),
     Category VARCHAR(50),
     Price DECIMAL(10,2),
     Quantity INT
 );
+```
 
 
 ## 📁 Project Structure
