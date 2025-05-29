@@ -93,7 +93,7 @@ INSERT INTO Product (id, name, category, price, quantity) VALUES
 ![Home Page](screenshots/home.jpg)
 
 ### ➕ Add Product
-![Add Product](screenshots/productadd.png)
+![Add Product](screenshots/add.jpg)
 
 ### 📝 Update Product
 ![Update Product](screenshots/productupdate.png)
