@@ -95,6 +95,7 @@ connection = DriverManager.getConnection(
     "jdbc:mysql://localhost:3306/product_management", 
     "your_username", 
     "your_password");
+ ```
 
 
 ## 🖼️ Output Screenshots
