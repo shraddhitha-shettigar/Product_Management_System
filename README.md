@@ -17,8 +17,14 @@ A web-based Java application to manage product inventory using JSP, Servlets, JD
   - Top N products by quantity
 
 ## 🗄️ Database Structure
-
 ### 1. Create Database
+
+```sql
+CREATE DATABASE IF NOT EXISTS product_management;
+USE product_management;
+```
+
+### 2. Create Table
 
 ```sql
 CREATE TABLE Products (
