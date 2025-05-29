@@ -105,5 +105,7 @@ INSERT INTO Product (id, name, category, price, quantity) VALUES
 ![Display Products](screenshots/display.jpg)
 
 ### 📊 Generate Reports
-![Generate Reports](screenshots/reports.png)
-
+![Generate Reports](screenshots/report1.jpg)
+![Generate Reports](screenshots/report2.jpg)
+![Generate Reports](screenshots/report3.jpg)
+![Generate Reports](screenshots/report4.jpg)
