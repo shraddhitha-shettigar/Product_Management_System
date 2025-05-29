@@ -54,7 +54,7 @@ ProductWebApp/
 └── WEB-INF/
     └── web.xml
 
-    ## ⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 - **Java (JDK 8+)**
 - **JSP & Servlets**
