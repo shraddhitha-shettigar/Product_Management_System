@@ -69,7 +69,7 @@ CREATE TABLE Products (
 ## 🖼️ Output Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/index.png)
+![Home Page](screenshots/home.jpg)
 
 ### ➕ Add Product
 ![Add Product](screenshots/productadd.png)
