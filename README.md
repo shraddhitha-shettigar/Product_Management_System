@@ -54,7 +54,8 @@ CREATE TABLE Products (
 │       ├── ReportServlet.java
 │       └── ReportCriteriaServlet.java
 └── WEB-INF/
-    └── web.xml```
+    └── web.xml
+    ```
 
 ## ⚙️ Technologies Used
 
