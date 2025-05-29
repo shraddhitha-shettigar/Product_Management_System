@@ -16,6 +16,36 @@ A web-based Java application to manage product inventory using JSP, Servlets, JD
   - Products by category
   - Top N products by quantity
 
+  ## 📁 Project Structure
+
+```ProductWebApp/
+├── WebContent/
+│   ├── index.jsp
+│   ├── productadd.jsp
+│   ├── productupdate.jsp
+│   ├── productdelete.jsp
+│   ├── productdisplay.jsp
+│   ├── reports.jsp
+│   ├── report_form.jsp
+│   └── report_result.jsp
+├── src/
+│   ├── com/
+│   ├── dao/
+│   │   └── ProductDAO.java
+│   ├── model/
+│   │   └── Product.java
+│   └── servlet/
+│       ├── AddProductServlet.java
+│       ├── UpdateProductServlet.java
+│       ├── DeleteProductServlet.java
+│       ├── DisplayProductsServlet.java
+│       ├── ReportServlet.java
+│       └── ReportCriteriaServlet.java
+└── WEB-INF/
+    └── web.xml
+```
+
+
 ## 🗄️ Database Setup
 ### 1. Create Database
 
@@ -46,34 +76,6 @@ INSERT INTO Product (id, name, category, price, quantity) VALUES
 (106, 'Sunscreen', 'Beauty', 60.00, 65);
 
 
-```
-## 📁 Project Structure
-
-```ProductWebApp/
-├── WebContent/
-│   ├── index.jsp
-│   ├── productadd.jsp
-│   ├── productupdate.jsp
-│   ├── productdelete.jsp
-│   ├── productdisplay.jsp
-│   ├── reports.jsp
-│   ├── report_form.jsp
-│   └── report_result.jsp
-├── src/
-│   ├── com/
-│   ├── dao/
-│   │   └── ProductDAO.java
-│   ├── model/
-│   │   └── Product.java
-│   └── servlet/
-│       ├── AddProductServlet.java
-│       ├── UpdateProductServlet.java
-│       ├── DeleteProductServlet.java
-│       ├── DisplayProductsServlet.java
-│       ├── ReportServlet.java
-│       └── ReportCriteriaServlet.java
-└── WEB-INF/
-    └── web.xml
 ```
 
 ## ⚙️ Technologies Used
