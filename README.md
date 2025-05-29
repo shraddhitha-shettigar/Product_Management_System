@@ -78,14 +78,24 @@ INSERT INTO Product (id, name, category, price, quantity) VALUES
 
 ```
 
-## ⚙️ Technologies Used
 
-- **Java (JDK 8+)**
-- **JSP & Servlets**
-- **JDBC**
-- **MySQL**
-- **Apache Tomcat (9+)**
-- **HTML/CSS**
+
+## ⚙️ Installation & Setup
+
+### Step 1: Clone/Download the Project
+Download all the project files and organize them according to the project structure above.
+
+### Step 2: Database Configuration
+1. Start your MySQL server  
+2. Run the database setup scripts provided above  
+3. Update database credentials in `ProductDAO.java`:
+
+```java
+connection = DriverManager.getConnection(
+    "jdbc:mysql://localhost:3306/product_management", 
+    "your_username", 
+    "your_password");
+
 
 ## 🖼️ Output Screenshots
 
